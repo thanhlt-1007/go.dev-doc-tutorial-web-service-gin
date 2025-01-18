@@ -33,6 +33,12 @@ go run .
 curl http://localhost:8080/albums
 ```
 
+- GET /albums/:id
+
+```sh
+curl http://localhost:8080/albums/1
+```
+
 - POST /albums
 
 ```sh
