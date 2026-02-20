@@ -1,0 +1,178 @@
+{
+  // ========================
+  // golang.go
+  // ========================
+
+  // "go.addTags":
+  // "go.alternateTools":
+  // "go.buildFlags":
+  // "go.buildTags":
+  // "go.coverMode": "default", // "default", "set", "count", "atomic"
+  // "go.coverOnSave": false,
+  // "go.coverOnSingleTest": false,
+  // "go.coverOnSingleTestFile": false,
+  // "go.coverOnTestPackage": true
+  // "go.coverShowCounts": false
+  // "go.coverageDecorator": {
+  //   "coveredBorderColor": "rgba(64,128,128,0.5)",
+  //   "coveredGutterStyle": "blockblue",
+  //   "coveredHighlightColor": "rgba(64,128,128,0.5)",
+  //   "type": "highlight",
+  //   "uncoveredBorderColor": "rgba(128,64,64,0.25)",
+  //   "uncoveredGutterStyle": "slashyellow",
+  //   "uncoveredHighlightColor": "rgba(128,64,64,0.25)",
+  // },
+  // "go.coverageOptions": "showBothCoveredAndUncoveredCode", // "showCoveredCodeOnly", "showUncoveredCodeOnly", "showBothCoveredAndUncoveredCode"
+  // "go.delveConfig":
+  // "go.diagnostic.vulncheck": "Prompt", // "Imports", "Off", "Prompt"
+  // "go.disableConcurrentTests": false,
+  // "go.editorContextMenuCommands": {
+  //   "addImport": true,
+  //   "addTags": true,
+  //   "benchmarkAtCursor": false,
+  //   "compilerDetails": false,
+  //   "debugTestAtCursor": true,
+  //   "fillStruct": false,
+  //   "generateTestForFile": false,
+  //   "generateTestForFunction": true,
+  //   "generateTestForPackage": false,
+  //   "playground": true,
+  //   "removeTags": false,
+  //   "testAtCursor": true,
+  //   "testCoverage": true,
+  //   "testFile": false,
+  //   "testPackage": false,
+  //   "toggleTestFile": true,
+  // },
+  // "go.enableCodeLens": {
+  //   "runtest": true,
+  // },
+  // "go.experiments": {
+  //   "testExplorer": true,
+  // },
+  // "go.formatFlags": "",
+  // "go.formatTool": "default", // "default", "gofmt", "goimports", "goformat", "gofumpt", "custom"
+  // "go.generateTestsFlags":
+
+  "go.gopath": "${env:HOME}/.gvm/pkgsets/go1.26.0/global",
+  "go.goroot": "${env:HOME}/.gvm/gos/go1.26.0",
+
+  // "go.inferGopath": false
+
+  "go.inlayHints.assignVariableTypes": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "go.inlayHints.compositeLiteralTypes": true,
+  "go.inlayHints.constantValues": true,
+  "go.inlayHints.functionTypeParameters": true,
+  "go.inlayHints.ignoredError": true,
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.rangeVariableTypes": true,
+
+  // "go.installDependenciesWhenBuilding": false,
+  // "go.languageServerFlags":
+
+  // "go.lintFlags":
+  "go.lintOnSave": "file", // "file", "package", "workspace", "off"
+  "go.lintTool": "golangci-lint-v2", // "staticcheck", "golint", "golangci-lint", "golangci-lint-v2", "revive"
+
+  // "go.playground": {
+  //   "openbrowser": true,
+  //   "run": true,
+  //   "share": true,
+  // },
+  // "go.removeTags": {
+  //   "options": "",
+  //   "promptForTags": false,
+  //   "tags": "",
+  // },
+  // "go.showWelcome": true,
+  // "go.tasks.provideDefault": true,
+  // "go.terminal.activateEnvironment": false,
+  // "go.testEnvFile": "",
+  // "go.testEnvVars": "",
+  // "go.testExplorer.alwaysRunBenchmarks": false,
+  // "go.testExplorer.concatenateMessages": true,
+  // "go.testExplorer.enable": true
+  // "go.testExplorer.packageDisplayMode": "flat", // "flat", "nested"
+  // "go.testExplorer.showDynamicSubtestsInEditor": false,
+  // "go.testExplorer.showOutput": true,
+  // "go.testFlags": ""
+  // "go.testOnSave": false,
+  // "go.testTags": "",
+  // "go.testTimeout": "30s",
+  // "go.toolsEnvVars": "",
+  // "go.toolsGopath": "",
+  // "go.toolsManagement.autoUpdate": false,
+  // "go.toolsManagement.checkForUpdates": "proxy", // "proxy", "local", "off"
+  // "go.toolsManagement.go": "",
+  // "go.trace.server": "off", // "off", "messages", "verbose"
+  // "go.useLanguageServer": true,
+  // "go.vetFlags": "",
+  // "go.vetOnSave": "package", // "package", "workspace", "off"
+  "gopls": {
+    // "build.buildFlags": "",
+    // "build.directoryFilters": "",
+    // "build.env": "",
+    // "build.expandWorkspaceToModule": "",
+    // "build.memoryMode": "",
+    // "build.standaloneTags": "",
+    // "build.templateExtensions": "",
+    // "build.workspaceFiles": "",
+    "formatting.gofumpt": true,
+    // "formatting.local": "",
+    // "ui.codelenses": {},
+    // "ui.completion.completeFunctionCalls": true,
+    // "ui.completion.completionBudget": "100ms",
+    // "ui.completion.experimentalPostfixCompletions": true,
+    // "ui.completion.matcher": "Fuzzy", // "CaseInsensitive", "CaseSensitive", "Fuzzy"
+    // "ui.completion.usePlaceholders": false,
+    // "ui.diagnostic.analyses": {},
+    // "ui.diagnostic.analysisProgressReporting": true,
+    // "ui.diagnostic.annotations": {},
+    // "ui.diagnostic.diagnosticsDelay": "1s",
+    // "ui.diagnostic.diagnosticsTrigger": "Edit", // "Edit", "Save"
+    // "ui.diagnostic.staticcheck": false, // false, true, unset
+    // "ui.diagnostic.staticcheckProvided": false,
+    // "ui.documentation.hoverKind": "FullDocumentation", // "FullDocumentation", "NoDocumentation", "SingleLine", "Structured", "SynopsisDocumentation"
+    // "ui.documentation.linkTarget": "pkg.go.dev", // "godoc.org", ""pkg.go.dev"
+    // "ui.documentation.linksInHover": true, // false, true, gopls
+    // "ui.navigation.importShortcut": "Both", // "Both", "Definition", "Link"
+    // "ui.navigation.symbolMatcher": "FastFuzzy", // "CaseInsensitive", "CaseSensitive", "FastFuzzy", "Fuzzy"
+    // "ui.navigation.symbolScope": "all", // "all", "workspace"
+    // "ui.navigation.symbolStyle": "Dynamic", // "Dynamic", "Full" , "Package"
+    // "ui.newGoFileHeader": true,
+    // "ui.renameMovesSubpackages": false,
+    // "ui.semanticTokenModifiers": "",
+    // "ui.semanticTokenTypes": "",
+    // "ui.semanticTokens": "",
+    // "verboseOutput": false,
+  },
+
+  // ========================
+  // EditorConfig.EditorConfig
+  // ========================
+
+  "editor.trimAutoWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+
+  "[go]": {
+    // "editor.defaultFormatter": "golang.go",
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+  },
+
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+
+  "[json]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+}
